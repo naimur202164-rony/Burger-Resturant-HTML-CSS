@@ -119,3 +119,33 @@ table {
 }
 
 /* End of Reset CSS */
+
+.container {
+  width: 100%;
+  background-image: url("./img/home-bg.png");
+  height: 100vh;
+}
+
+.menu-container {
+  width: 1330px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-text-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-link nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-link nav li a {
+  text-decoration: none;
+  color: #3d2514;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 18px;
+}
